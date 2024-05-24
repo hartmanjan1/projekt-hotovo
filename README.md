@@ -16,3 +16,8 @@ Přidal jsem také dlaždice které jsem umístil na okraj mapy tak aby levely v
 
 Po přidání dlaždic jsem si soubory uspořadal do složek, tak aby se mi s nimi do budoucna lépe pracovalo.
 Teď už přišli na řadu Scripty takže jsem si založil novou složku s názvem Scripty kde jsem založil nový C#script a dal mu název Ovládání. Otevřel jsem Visual Studio a do scriptu jsem mohl začít psát. Jako první jsem chtěl přidat pohyb hráče doleva,doprava a skok. Klávesy jsem pro pohyb nastavil A a D a pro výskok mezerník. Pohyb hráče jsem přidal tímto příkazem:
+
+![1](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/48f3134f-d601-49cb-93f5-57c92e36e365)
+
+![2](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/ef1b9e16-dbb1-49bc-ae02-ed6cdc2c3aa8)
+
