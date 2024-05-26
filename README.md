@@ -79,6 +79,8 @@ Aby hra byla více zábavná přidal jsem na platformy malé krystaly které mus
 
 Pak jsem jenom upravil pohyb a rychlost hráče, tak aby hra vypadala více přirozeně.
 
+Na vybrané boxy jsem přidal fyzický materiál Bouncy a nastavil na hodnotu 0.8 tak aby boxy fungovaly jako trampolína.
+
 A to je vše. Níže přiložím video ze hry. 
 
 Díky této zkušenosti jsem se naučil mnoho příkazů do Visual Studia a naučil jsem se lépe využívat program Unity.
