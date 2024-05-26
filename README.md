@@ -54,6 +54,40 @@ Teď se již hráč plně i se všemi animacemi pohyboval, ale kamera ho stále 
 ![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/660ad16d-b298-4dba-9a39-ef2f3aab3d41)
 a pak jen přetáhl do skriptu objekt hráče. To umožnilo to že kamera bude sledovat jen hráče a prostor kolem něho. Takže teď když se hráč rozběhl tam mohl běžet a skákat dál než jen pár bloků.
 
+Jenže když hráč spadl z plošiny dolů tak jsem vždy musel restartovat hru aby se na plošinu zase vrátil. To jsem změnil tak že jsem pod scénu hry vložil po celé délce FallDetector, který funguje jako takový senzor a když ním hráč propadne tak ho vrátí zpět na start.
+
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/5e6172d5-95f2-4faf-8e3d-e238097d7bff)
+
+Aby FallDetector dobře fungoval tak jsem musel přidat hned několik příkazů: 
+
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/e5b49539-66c3-4876-9a85-37b12660814e)
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/cd7b1689-705a-4ad0-a8fe-03e2d19b5d08)
+
+A jelikož je herní scéna poměrně dlouhá rozhodl jsem se do ní přidat hned několik checkpointů, tak aby když hráč spadne nakonci nemusel absolvovat celou mapu znovu.
+
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/2774e96e-2603-43cb-9df9-b4fb27af942d)
+
+Na checkpointy jsem přidal komponent Box Collider 2D a zaškrtnul políčko is Trigger, tak aby checkpoint zaregistroval pohyb hráče.
+Pak už stačilo vložit krátký příkaz:
+
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/b650fa4e-cc02-493c-9461-71438e238762) 
+Následně jsem na checkpointy přidal soubor portálu aby hráč viděl kdy následuje další checkpoint.
+
+Pak jsem jenom upravil pohyb a rychlost hráče, tak aby hra vypadala více přirozeně.
+
+A to je vše. Níže přiložím video ze hry. 
+
+Díky této zkušenosti jsem se naučil mnoho příkazů do Visual Studia a naučil jsem se lépe využívat program Unity.
+V programování her budu určitě pokračovat.
+
+Děkuji Hartman S3E.
+
+
+
+
+
+
+
 
 
 
