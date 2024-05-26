@@ -33,7 +33,7 @@ A následně tento delší příkaz:
 ![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/bdba37eb-2e6c-4015-9582-4662a6d337d0)
 
 Jelikož jsem již měl přidané vše potřebné tak by hra již fungovala, ale rozhodl jsem se přidat ještě pár věcí.
-Jako další jsem chtěl přidat animace. Z minulého pololetního projektu si pamatuji že animace pro mně byli jeden z největších problémů takže jsem se rozhodl pokračovat spíše podle videa než podle sebe.
+Jako další jsem chtěl přidat animace. Z minulého pololetního projektu si pamatuji že animace pro mně byly jeden z největších problémů takže jsem se rozhodl pokračovat spíše podle videa než podle sebe.
 Začal jsem tak že jsem si stáhl všechny jednotlivé snímky hráče a přetáhl je na časovou osu kde jsem si je uspořádal tak jak jdou za sebou ve stejných intervalech. Animoval jsem převážně jen hráče a pak jednu platformu tak aby byla pohyblivá. 
 ![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/9e0c1565-649b-4c0a-b4fc-037aa06f26b5)
 
