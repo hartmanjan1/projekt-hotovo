@@ -22,5 +22,5 @@ Teď už přišli na řadu Scripty takže jsem si založil novou složku s názv
 ![2](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/ef1b9e16-dbb1-49bc-ae02-ed6cdc2c3aa8)
 
 Teď se mi již hráč pohyboval do stran a mohl vyskočit, ale často se mi stávalo že se hráč o platformu na kterou skáče "zasekne", a tak jsem musel na každou jednotlivou platformu přidat fyzický materiál jménem Slippery který jsem si již v minulosti vytvořil.
-Hráč má momentálně nekonečno výskoků,  ale mým cílem je aby mohl skákat pouze když se dotýká platformy nebo boxu s komponentem Collider 2D, 
+Hráč má momentálně nekonečno výskoků,  ale mým cílem je aby mohl skákat pouze když se dotýká platformy nebo boxu s komponentem Collider 2D, proto jsem na každou platformy nebo box musel přidat
 
