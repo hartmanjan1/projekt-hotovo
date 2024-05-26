@@ -75,6 +75,8 @@ Pak už stačilo vložit krátký příkaz:
 
 Následně jsem na checkpointy přidal soubor portálu aby hráč viděl kdy následuje další checkpoint.
 
+Aby hra byla více zábavná přidal jsem na platformy malé krystaly které musí hráč při hraní hry sbírat.
+
 Pak jsem jenom upravil pohyb a rychlost hráče, tak aby hra vypadala více přirozeně.
 
 A to je vše. Níže přiložím video ze hry. 
