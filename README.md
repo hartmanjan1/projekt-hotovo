@@ -22,5 +22,38 @@ Teď už přišli na řadu Scripty takže jsem si založil novou složku s názv
 ![2](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/ef1b9e16-dbb1-49bc-ae02-ed6cdc2c3aa8)
 
 Teď se mi již hráč pohyboval do stran a mohl vyskočit, ale často se mi stávalo že se hráč o platformu na kterou skáče "zasekne", a tak jsem musel na každou jednotlivou platformu přidat fyzický materiál jménem Slippery který jsem si již v minulosti vytvořil.
-Hráč má momentálně nekonečno výskoků,  ale mým cílem je aby mohl skákat pouze když se dotýká platformy nebo boxu s komponentem Collider 2D, proto jsem na každou platformy nebo box musel přidat
+Hráč má momentálně nekonečno výskoků,  ale mým cílem je aby mohl skákat pouze když se dotýká platformy nebo boxu s komponentem Collider 2D, proto jsem na každou platformy nebo box musel přidat tzv. GroundCheck a nastavil jsem mu hodnotu 0.2 jelikož můj hráč je velký tak aby mohl mít tuto hodnotu. Groundcheck je příkaz který umožní to že hráč bude moci vyskočit jen jednou.
+Použil jsem proto tyhle čtyři příkazy:
+
+![2](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/99480746-d79a-48e0-b553-95cdc3dbc422)
+
+A následně tento delší příkaz: 
+
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/1db8cb38-a84f-4ae4-b13b-1bc433608532)
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/bdba37eb-2e6c-4015-9582-4662a6d337d0)
+
+Jelikož jsem již měl přidané vše potřebné tak by hra již fungovala, ale rozhodl jsem se přidat ještě pár věcí.
+Jako další jsem chtěl přidat animace. Z minulého pololetního projektu si pamatuji že animace pro mně byli jeden z největších problémů takže jsem se rozhodl pokračovat spíše podle videa než podle sebe.
+Začal jsem tak že jsem si stáhl všechny jednotlivé snímky hráče a přetáhl je na časovou osu kde jsem si je uspořádal tak jak jdou za sebou ve stejných intervalech. Animoval jsem převážně jen hráče a pak jednu platformu tak aby byla pohyblivá. 
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/9e0c1565-649b-4c0a-b4fc-037aa06f26b5)
+
+U hráče jsem měl hned tři animace - pro chůzi, výskok a když je hráč v normálním, nehybném stavu.
+Animaci pro platformu jsem udělal stejně jako animaci na pohyb hráče.
+
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/b3621219-ef6b-4026-9b5d-3447d83dafe1)
+
+V sekci animator jsem naprogramoval animace tak jak jdou z sebou.
+Aby animace plně fungovali musel jsem je ještě naprogramovat ve Visual Studiu těmito jednoduchými kódy: 
+
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/c72f4c12-44b3-48a5-8f1c-1f2f9e2e3abb)
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/be8c8f8e-0cb6-41c3-aabc-00ccc79b01fc)
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/c711b75f-6c95-4ba0-ab25-da934db9f77c)
+
+Teď se již hráč plně i se všemi animacemi pohyboval, ale kamera ho stále nesledovala. Takže mohl ujít jen pár bloků. To jsem změnil tak že jsem založil nový skript jménem CameraController a přetáhl ho na hlavní kameru. Tady jsem uplně vynechal video ze série kterou sleduji a udělal jsem to podobně jak jsem to dělal v prvním pololetí. Do skriptu určeného jen pro kameru jsem napsal tyto příkazi: 
+
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/660ad16d-b298-4dba-9a39-ef2f3aab3d41) a pak jen přetáhl do skriptu objekt hráče. To umožnilo to že kamera bude sledovat jen hráče a prostor kolem něho. Takže teď když se hráč rozběhl tam mohl běžet a skákat dál než jen pár bloků.
+
+
+
+
 
