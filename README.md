@@ -51,7 +51,8 @@ Aby animace plně fungovali musel jsem je ještě naprogramovat ve Visual Studiu
 
 Teď se již hráč plně i se všemi animacemi pohyboval, ale kamera ho stále nesledovala. Takže mohl ujít jen pár bloků. To jsem změnil tak že jsem založil nový skript jménem CameraController a přetáhl ho na hlavní kameru. Tady jsem uplně vynechal video ze série kterou sleduji a udělal jsem to podobně jak jsem to dělal v prvním pololetí. Do skriptu určeného jen pro kameru jsem napsal tyto příkazi: 
 
-![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/660ad16d-b298-4dba-9a39-ef2f3aab3d41) a pak jen přetáhl do skriptu objekt hráče. To umožnilo to že kamera bude sledovat jen hráče a prostor kolem něho. Takže teď když se hráč rozběhl tam mohl běžet a skákat dál než jen pár bloků.
+![image](https://github.com/hartmanjan1/projekt-hotovo/assets/156115281/660ad16d-b298-4dba-9a39-ef2f3aab3d41)
+a pak jen přetáhl do skriptu objekt hráče. To umožnilo to že kamera bude sledovat jen hráče a prostor kolem něho. Takže teď když se hráč rozběhl tam mohl běžet a skákat dál než jen pár bloků.
 
 
 
